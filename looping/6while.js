@@ -7,3 +7,11 @@ while (i < j){
     i++;
 }
 
+//implementasi while simple pada sistem biasa
+// const pwdBenar = 'meledak123';
+// let inputUser = prompt('masukkan pwd anda dong');
+// while(inputUser !== 'meledak123'){ //input nya harus sama persis
+//     alert('hahah pwd anda salahh');
+//     inputUser = prompt('masukkan pwd anda lagi dong');
+// }
+// alert('anda benar silahkan masuk');

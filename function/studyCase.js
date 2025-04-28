@@ -1,22 +1,27 @@
-
 // kuis 1
+const tabunganAwal = Number(prompt('masukkan jumlah tabungan awal anda : '));
+const pengeluaran= Number(prompt('masukkan jumlah pengeluaran anda : '));
+const tabunganAkhir = tabunganAwal - pengeluaran
+alert(`Jumlah tabungan akhir anda adalah ${tabunganAkhir}`)
 
-let a = parseFloat(prompt("Masukkan angka pertama:"));
-let b = parseFloat(prompt("Masukkan angka kedua:"));
-let op = prompt("Pilih operasi (+, -, *, /):");
+// kuis 2
 
-function kalkulator(a, b, operasi) {
-    if (operasi === "+") return a + b;
-    else if (operasi === "-") return a - b;
-    else if (operasi === "*") return a * b;
-    else if (operasi === "/") return a / b;
-    else return "Operasi tidak dikenali";
-  }
+// let a = parseFloat(prompt("Masukkan angka pertama:"));
+// let b = parseFloat(prompt("Masukkan angka kedua:"));
+// let op = prompt("Pilih operasi (+, -, *, /):");
 
-  alert("Hasil: " + kalkulator(a, b, op));
+// function kalkulator(a, b, operasi) {
+//     if (operasi === "+") return a + b;
+//     else if (operasi === "-") return a - b;
+//     else if (operasi === "*") return a * b;
+//     else if (operasi === "/") return a / b;
+//     else return "Operasi tidak dikenali";
+//   }
+
+//   alert("Hasil: " + kalkulator(a, b, op));
 
 
-// kuis 2 opsional kalau masih ada waktu
+// kuis 3 opsional kalau masih ada waktu
 // const hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
 
 // const tanggalSekarang = new Date();
